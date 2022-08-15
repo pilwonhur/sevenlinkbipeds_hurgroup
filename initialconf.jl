@@ -1,8 +1,8 @@
 using JuMP, Ipopt, PyPlot, LinearAlgebra, Interpolations, Suppressor #AmplNLWriter
 
-datafilename="data49.bson";
+datafilename="data48.bson";
 issavedata=false;
-isloaddata=false;
+isloaddata=true;
 runoptimization=true;
 randomizedIC=false;
 showwalkingtile=false;
